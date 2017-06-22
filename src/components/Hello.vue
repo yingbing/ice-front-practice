@@ -16,6 +16,30 @@ export default {
       message: 'Welcome to Your Vue.js App',
       message_2: '页面加载于' + new Date()
     }
+  },
+  beforeCreate () {
+    console.log('beforeCreate')
+  },
+  created () {
+    console.log('created')
+  },
+  beforeMount () {
+    console.log('beforeMount')
+  },
+  mounted () {
+    console.log('mounted')
+  },
+  beforeUpdate () {
+    console.log('beforeUpdate')
+  },
+  updated () {
+    console.log('updated')
+  },
+  beforeDestory () {
+    console.log('beforeDestory')
+  },
+  destoryed () {
+    console.log('desotory')
   }
 }
 </script>
